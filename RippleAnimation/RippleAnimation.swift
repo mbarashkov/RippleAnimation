@@ -112,7 +112,7 @@ public extension UIView {
                 }
                 else
                 {
-                    UIView.animate(withDuration: fadeAnimateDuration - tahDecisionTime, animations: tahFailedAnimation, completion: { _ in
+                    UIView.animate(withDuration: fadeAnimateDuration, animations: tahFailedAnimation, completion: { _ in
                     })
                 }
             }
